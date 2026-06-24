@@ -9,7 +9,7 @@ supported_targets:
 
 extensions:
   avocado-ext-webkit:
-    version: 2024.1.0
+    version: 0.1.0
     release: r0
     summary: WPE WebKit browser and display utilities
     description: WPE WebKit browser and display utilities
@@ -42,4 +42,4 @@ extensions:
       overlay: overlays/reterminal-dm
 
 sdk:
-  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}-{{ env.AVOCADO_DISTRO_CHANNEL }}
+  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}
