@@ -1,15 +1,34 @@
 supported_targets:
+  - arm64-uefi-v9
+  - fr202
+  - grinn-astra-1680-sbc
+  - imx8mp-evk
+  - imx8mp-var-dart
+  - imx91-frdm
+  - imx93-evk
+  - imx93-frdm
+  - imx95-frdm
+  - intel-x86-64-v2
+  - intel-x86-64-v3
+  - intel-x86-64-v4
+  - jetson-agx-orin
+  - jetson-agx-thor
+  - jetson-orin-nano
+  - jetson-orin-nx
+  - nanopi-r5s
+  - raspberrypi0-2w
   - raspberrypi4
   - raspberrypi5
+  - rb3gen2
   - reterminal
   - reterminal-dm
-  - icam-540
-  - jetson-orin-nano-devkit
-  - jetson-agx-orin-devkit
+  - rubikpi3
+  - rzv2n-sr-som
+  - ucm-imx8m-plus
 
 extensions:
   avocado-ext-webkit:
-    version: 0.1.0
+    version: 0.1.1
     release: r0
     summary: WPE WebKit browser and display utilities
     description: WPE WebKit browser and display utilities
