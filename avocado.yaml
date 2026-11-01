@@ -4,12 +4,12 @@ supported_targets:
   - reterminal
   - reterminal-dm
   - icam-540
-  - jetson-orin-nano-devkit
-  - jetson-agx-orin-devkit
+  - jetson-orin-nano
+  - jetson-agx-orin
 
 extensions:
   avocado-ext-webkit:
-    version: 0.1.0
+    version: 0.1.1
     release: r0
     summary: WPE WebKit browser and display utilities
     description: WPE WebKit browser and display utilities
