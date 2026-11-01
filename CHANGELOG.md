@@ -7,9 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.1]
 
 ### Fixed
-- Jetson targets use the names both feeds now share, `jetson-orin-nano` and
-  `jetson-agx-orin`, instead of the `-devkit` names. The 2024 feed renamed them,
-  so 0.1.0 never reaches the renamed targets.
+- `supported_targets` lists every machine whose feed builds `wpewebkit`: all
+  declared machines except the two qemus. The old list was partial, named the
+  pre-rename Jetson `-devkit` targets the 2024 feed dropped, and named
+  `icam-540`, a BSP rather than a feed machine.
 - `test.yml` gains the 2026 leg, matching `release.yml`.
 
 ## [0.1.0]
